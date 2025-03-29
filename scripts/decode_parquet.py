@@ -21,6 +21,6 @@ def decode_mf4_to_parquet(mf4_dir, output_dir, tool="./tools/mdf2parquet_decode"
 
 if __name__ == "__main__":
     decode_mf4_to_parquet(
-        mf4_dir="raw_data/EEEE0005/00000001",
+        mf4_dir="raw_data/2025-03-08",
         output_dir="processed_data"
     )
