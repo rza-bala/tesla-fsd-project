@@ -1,9 +1,40 @@
-venv/
+# Python build
 __pycache__/
-.ipynb_checkpoints/
-*.log
-*.csv
-*.mp4
-.DS_Store
-data/raw/
+*.py[cod]
+*.so
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# Logs, cache, and temp
+*.log
+*.tmp
+*.bak
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Data outputs
+*.csv
+*.parquet
+*.mp4
+*.mf4
+
+# Project data
+data/raw/
+data/decoded/
+outputs/
+# If you want to keep specific files in outputs/, use negation:
+# !outputs/README.md
+
+# VSCode or PyCharm settings (optional)
+.vscode/
+.idea/
+
+# Environment config
+.env
