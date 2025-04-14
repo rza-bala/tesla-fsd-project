@@ -9320,20 +9320,6 @@ Use for:
 
 ---
 
-## 🗂 6. Suggested Categories for Signal Analysis
-
-```json
-{
-  "Longitudinal Control": [...],
-  "Lateral Control": [...],
-  "Drive State": [...],
-  "Environmental": [...],
-  "Path Planning": [...],
-  "Telltales / Warnings": [...],
-  "Vehicle Metadata": [...],
-  "Other": [...]
-}
-```
 
 Each signal will appear in only one group, aiding clean separation of test goals.
 

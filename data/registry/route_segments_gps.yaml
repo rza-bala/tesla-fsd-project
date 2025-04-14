@@ -1,0 +1,49 @@
+segments:
+  - id: merge_i280_south
+    label: Merge onto I-280 South
+    lat_min: 37.64392865319225
+    lat_max: 37.64478055776392
+    lon_min: -122.45102412071952
+    lon_max: -122.44808482385491
+  - id: cruise_i280_south
+    label: Cruise I-280 - Segment 1
+    lat_min: 37.64392865319225
+    lat_max: 37.64478055776392
+    lon_min: -122.45102412071952
+    lon_max: -122.44808482385491
+  - id: interchange_i280_i380
+    label: Curved Segment
+    lat_min: 
+    lat_max: 
+    lon_min: 
+    lon_max: 
+  - id: cruise_i380_east
+    label: Cruise I-380 East
+    lat_min:
+    lat_max:
+    lon_min:
+    lon_max: 
+  - id: interchange_i380_101
+    label: Curved Segment
+    lat_min: 37.62865189365677
+    lat_max: 37.63436849953067
+    lon_min: -122.41005914494494
+    lon_max: -122.40105036902398
+  - id: cruise_us101_segment
+    label: Cruise US-101 South
+    lat_min: 37.39808966611892
+    lat_max: 37.61671558721743
+    lon_min: -122.41173635701387
+    lon_max: -122.07451230961712
+  - id: exit_shoreline
+    label: Exit US-101 at Shoreline Blvd
+    lat_min: 37.4050
+    lat_max: 37.4080
+    lon_min: -122.0950
+    lon_max: -122.0850
+  - id: navigate_colony_st
+    label: Navigate to Colony St, MV
+    lat_min: 37.4020
+    lat_max: 37.4050
+    lon_min: -122.0850
+    lon_max: -122.0800
